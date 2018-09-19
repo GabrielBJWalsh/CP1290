@@ -1,0 +1,60 @@
+<html>
+<head>
+</head>
+<body>
+<script>
+  function getNumbers() {
+    var number= parseInt(prompt("provide a number between 1 and 100",5));
+      
+      if (isNaN(number)){
+          alert("go home Nan your not a number... please try again")
+      }
+      else if (number > 100){
+          alert("your number is too large try again")
+      }else if (number < 1){
+          alert("your number is too low try again ")
+      }
+      else{
+            var sum = 0;
+
+            for (i = 1; i < number+1; i++) {
+      
+                sum+=i;
+            }
+            alert("the sum of all numbers up to "+number+" is "+sum);
+
+      } 
+  }
+function calculate(){
+    var investAmount = document.getElementById("simpleID");
+    alert(investAmount+investAmount);
+}
+
+</script>
+<h1>
+  problem 2-2
+</h1>
+<!--cant get get element by id to work for some reason this is why i hate JS-->
+<input type="button" alt="button that asks for a number to be summed" value="Yay Numbers!"  onclick="getNumbers();"/>
+<h1>
+    Problem 3-2
+</h1>
+<h1>
+    Future Value calulator<br>
+</h1>
+<form>
+Investment amount:<input id="simpleID" type="text" name="investmentAmount" alt="enter investment amount"><br>
+
+Annual Intrest Rate:<input type="text" name="annualRate"><br>
+
+Number of years:<input type="text" name="numberOfYears"><br>
+
+Future Value:<input type="text" name="futureValue"><br>
+    
+    <input type="button" alt="button to calulate values" value="Calulate" onclick="calculate();"/>
+</form>
+    
+
+
+</body>
+</html>
