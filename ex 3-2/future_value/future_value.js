@@ -1,3 +1,3 @@
 var $ = function (id) {
-    return document.getElementById(id);
+    return document.getElementById(id).value;
 }

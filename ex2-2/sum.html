@@ -5,6 +5,28 @@
 	<title>Sum the Numbers</title>
    	<script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script> 	
    	<script>
+        function getNumbers() {
+            var number= parseInt(prompt("provide a number between 1 and 100",5));
+
+            if (isNaN(number)){
+                alert("go home Nan your not a number... please try again")
+            }
+            else if (number > 100){
+                alert("your number is too large try again")
+            }else if (number < 1){
+                alert("your number is too low try again ")
+            }
+            else{
+                var sum = 0;
+
+                for (i = 1; i < number+1; i++) {
+
+                    sum+=i;
+                }
+                alert("the sum of all numbers up to "+number+" is "+sum);
+
+            }
+        }
         alert("Sum the Numbers from 1 through entry");
         
     </script>

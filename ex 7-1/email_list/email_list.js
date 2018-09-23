@@ -1,4 +1,4 @@
-$(document).ready(function() {
+ $(document).ready(function() {
 	$("#join_list").click(
 		function() {
 			var emailAddress1 = $("#email_address1").val();
