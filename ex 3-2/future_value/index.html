@@ -4,8 +4,8 @@
 	<meta charset="UTF-8">
 	<title>Future Value Calculator</title>
    	<link rel="stylesheet" href="future_value.css">
-   	<!--<script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
-   	<script src="future_value.js"></script>-->
+   	<script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+   	<script src="future_value.js"></script>
 
 </head>
 
@@ -29,7 +29,7 @@
         <input  type="button" id="calculate" value="Calculate" onclick="calculate()"><br>
     </section>
 <script>
-    function calculate(){
+   /* function calculate(){
        var rate = parseFloat(document.getElementById("rate").value);
        var investment = parseFloat(document.getElementById("investment").value);
        var years = parseFloat(document.getElementById("years").value);
@@ -42,11 +42,11 @@
        for (i=0;i < years; i++) {
            future_value = future_value + investment * rate;
        }
-        alert(future_value);
+
         document.getElementById("future_value").value = future_value;
 
 
-    }
+    }*/
 </script>
 </body>
 </html>
