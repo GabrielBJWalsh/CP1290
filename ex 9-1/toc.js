@@ -44,6 +44,9 @@ $(document).ready(function () {
 
         // change the styles for the selected heading
         $(id).css({"color": "blue", "font-size": "150%"});
+        $("h2").not($(id)).css({"color": "black", "font-size": "120%"});
+        //$(id).append("I AM THE ID ")
+
 
         // move the aside so it is next to the selected heading
         var h2Offset = $(id).offset().top;
@@ -59,10 +62,7 @@ $(document).ready(function () {
 
     });
 
-    //WORKING ON THIS PART HERE FRIEDDY
-    // find way to get the p after a h2
-    // $("p").first("p").append("THIS IS FRIST");
-    //$("p").not(".test").css("text-indent","1.5em");
-    $("p<h2").append("apple")
-    //$("p").not($('p > h2')).css("text-indent","1.5em");
+    $("p").not($('h2+p')).css("text-indent","1.5em")
+
 })
+
