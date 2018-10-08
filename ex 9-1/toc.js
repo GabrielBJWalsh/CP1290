@@ -59,4 +59,8 @@ $(document).ready(function () {
         $("aside").css("top", asideOffset);
 
     });
+    // find way to get the p after a h2
+   // $("p").first("p").append("THIS IS FRIST");
+   // $(".inner").after("<h2></h2>")
+    $("p").not(".test").css("text-indent","1.5em");
 })
