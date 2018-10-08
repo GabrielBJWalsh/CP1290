@@ -5,8 +5,6 @@ $(document).ready(function () {
     $("aside").append("<br><a href='#heading1'>Back to top</a>");
 
 
-
-
     // wrap the h2 text in the article in <a> tags
     $("article h2").wrapInner("<a></a>");
 
@@ -19,7 +17,7 @@ $(document).ready(function () {
     });
     */
     // adds ids to <a> tags using attr
-    $("article a").attr("id",function (index) {
+    $("article a").attr("id", function (index) {
         var id = "heading" + (index + 1);
         return id
     });
@@ -32,10 +30,11 @@ $(document).ready(function () {
     // add the href attributes to the <a> tags in the aside
     $("aside a").attr("href", function (index) {
         var href = "#heading" + (index + 1);
-        if(href=="#heading8"){
+        if (href == "#heading8") {
             return "#heading1"
-        }else{
-        return href;}
+        } else {
+            return href;
+        }
     });
 
     // change the CSS for the selected topic and move the TOC
@@ -59,8 +58,11 @@ $(document).ready(function () {
         $("aside").css("top", asideOffset);
 
     });
+
+    //WORKING ON THIS PART HERE FRIEDDY
     // find way to get the p after a h2
-   // $("p").first("p").append("THIS IS FRIST");
-   // $(".inner").after("<h2></h2>")
-    $("p").not(".test").css("text-indent","1.5em");
+    // $("p").first("p").append("THIS IS FRIST");
+    //$("p").not(".test").css("text-indent","1.5em");
+    $("p<h2").append("apple")
+    //$("p").not($('p > h2')).css("text-indent","1.5em");
 })
