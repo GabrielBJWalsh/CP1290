@@ -44,9 +44,7 @@ $(document).ready(function () {
 
         // change the styles for the selected heading
         $(id).css({"color": "blue", "font-size": "150%"});
-        $("h2").not($(id)).css({"color": "black", "font-size": "120%"});
-        //$(id).append("I AM THE ID ")
-
+        $("article a").not($(id)).css({"color": "black", "font-size": "120%"});
 
         // move the aside so it is next to the selected heading
         var h2Offset = $(id).offset().top;
