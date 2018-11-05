@@ -8,7 +8,7 @@
 </head>
 <script>
 
-        $("#slides img").hide()
+        $("#slides img").hide();
         $("#slides").find("img:first").show();
 
         setInterval(function (){$("#slides>img:first").fadeOut(2000).next().fadeIn(2000).end().appendTo("#slides")},3000)
