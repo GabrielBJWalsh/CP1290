@@ -1,0 +1,54 @@
+{
+  "kind": "blogger#postList",
+  "items": [
+    {
+      "kind": "blogger#post",
+      "id": "1881517788787982800",
+      "blog": {
+        "id": "8698899267502010836"
+      },
+      "published": "2012-08-05T21:56:00.000Z",
+      "updated": "2012-08-05T21:56:06.878Z",
+      "url": "http://vectacorp.blogspot.com/2012/08/vecta-corp-forms-new-partnership-with.html",
+      "selfLink": "https://www.googleapis.com/blogger/v2/blogs/8698899267502010836/posts/1881517788787982800",
+      "title": "Vecta Corp. forms new partnership with IX Inc.",
+      "author": {
+        "id": "15280072090048950412",
+        "displayName": "Zak Ruvalcaba",
+        "url": "https://www.blogger.com/profile/15280072090048950412",
+        "image": {
+          "url": "//lh3.googleusercontent.com/zFdxGE77vvD2w5xHy6jkVuElKv-U9_9qLkRYK8OnbDeJPtjSZ82UPq5w6hJ-SA=s35"
+        }
+      },
+      "replies": {
+        "totalItems": "18",
+        "selfLink": "https://www.googleapis.com/blogger/v2/blogs/8698899267502010836/posts/1881517788787982800/comments"
+      }
+    },
+    {
+      "kind": "blogger#post",
+      "id": "8438035814640824602",
+      "blog": {
+        "id": "8698899267502010836"
+      },
+      "published": "2012-08-05T21:34:00.002Z",
+      "updated": "2012-08-05T21:43:38.077Z",
+      "url": "http://vectacorp.blogspot.com/2012/08/this-is-first-post.html",
+      "selfLink": "https://www.googleapis.com/blogger/v2/blogs/8698899267502010836/posts/8438035814640824602",
+      "title": "Vecta Corp. inks new deal with Module Media",
+
+      "author": {
+        "id": "15280072090048950412",
+        "displayName": "Zak Ruvalcaba",
+        "url": "https://www.blogger.com/profile/15280072090048950412",
+        "image": {
+          "url": "//lh3.googleusercontent.com/zFdxGE77vvD2w5xHy6jkVuElKv-U9_9qLkRYK8OnbDeJPtjSZ82UPq5w6hJ-SA=s35"
+        }
+      },
+      "replies": {
+        "totalItems": "6",
+        "selfLink": "https://www.googleapis.com/blogger/v2/blogs/8698899267502010836/posts/8438035814640824602/comments"
+      }
+    }
+  ]
+}
